@@ -50,4 +50,4 @@
 
 ## Example Usage
 
-![alt text](https://github.com/berkelmas/rn-zoomable-image-viewer/raw/master/rn-zoomable-image-viewer-gif.gif)
+![alt text](https://raw.githubusercontent.com/berkelmas/rn-zoomable-image-viewer/main/rn-zoomable-image-viewer-gif.gif)
