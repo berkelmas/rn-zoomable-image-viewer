@@ -1,10 +1,27 @@
-import { StyleSheet } from 'react-native'
+import { Dimensions, StyleSheet } from 'react-native'
 
-export default StyleSheet.create({
+export const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
+  },
+  image: {
+    height: 400,
+    width: Dimensions.get('window').width,
+    resizeMode: 'cover',
+  },
+  backdrop: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    bottom: 0,
+    top: 0,
+  },
+  flatlistContainer: {
     alignItems: 'center',
-    justifyContent: 'center',
-    height: 200,
+    height: '100%',
   },
 })

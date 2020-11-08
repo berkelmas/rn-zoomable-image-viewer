@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import RNModuleTemplate, { Counter } from 'react-native-module-template'
+import RNZoomableImageViewer, { Counter } from 'rn-zoomable-image-viewer'
 
 const App = () => {
   useEffect(() => {
-    console.log(RNModuleTemplate)
+    console.log(RNZoomableImageViewer)
   })
 
   return <Counter />

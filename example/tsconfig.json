@@ -9,7 +9,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {
-      "react-native-module-template": ["../src"]
+      "rn-zoomable-image-viewer": ["../src"]
     },
     "skipLibCheck": true,
     "strict": true,

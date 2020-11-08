@@ -1,14 +1,14 @@
 //
-//  RNModuleTemplate.swift
-//  RNModuleTemplate
+//  RNZoomableImageViewer.swift
+//  RNZoomableImageViewer
 //
-//  Copyright © 2020 Alex Demchenko. All rights reserved.
+//  Copyright © 2020 Berk Elmas. All rights reserved.
 //
 
 import Foundation
 
-@objc(RNModuleTemplate)
-class RNModuleTemplate: NSObject {
+@objc(RNZoomableImageViewer)
+class RNZoomableImageViewer: NSObject {
   @objc
   func constantsToExport() -> [AnyHashable : Any]! {
     return ["count": 1]
